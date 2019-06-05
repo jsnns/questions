@@ -1,0 +1,20 @@
+[
+	{
+		"name": "Walmart Keyboard",
+		"value": 130,
+		"durability": 24,
+		"effectiveness": -0.5
+	},
+	{
+		"name": "Yamaha",
+		"value": 499,
+		"durability": 60,
+		"effectiveness": 0.25
+	},
+	{
+		"name": "Roland LX708",
+		"value": 7399,
+		"durability": 240,
+		"effectiveness": 0.5
+	}
+]

@@ -1,0 +1,6 @@
+{
+	"value": "USD value of item",
+	"durability": "Expected lifespan in months",
+	"problem_type": "Category of problem",
+	"effectiveness": "How well do they do their job. (-1) just barely do their job (0) at the bar (1) best possible luxery solution"
+}

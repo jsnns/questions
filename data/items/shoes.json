@@ -1,0 +1,26 @@
+[
+	{
+		"name": "Gucci Sneakers",
+		"value": 650,
+		"durability": 12,
+		"effectiveness": 0.9
+	},
+	{
+		"name": "Walmart Sneakers",
+		"value": 10.5,
+		"durability": 4,
+		"effectiveness": -0.6
+	},
+	{
+		"name": "Addias Ultraboost",
+		"value": 106.0,
+		"durability": 10,
+		"effectiveness": 0.85
+	},
+	{
+		"name": "Nike Tanjun",
+		"value": 49,
+		"durability": 10,
+		"effectiveness": 0.5
+	}
+]
