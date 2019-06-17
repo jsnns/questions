@@ -9,13 +9,15 @@ const get_score = item =>
 const sort_by_score = items =>
 	items.sort((a, b) => get_score(b) - get_score(a));
 
-const pretty_print_score = score => `${score.toFixed(2)}%`;
+const pretty_print_score = score => `${score.toFixed(2)}`;
+const markdown_row = item =>
+	`| ${item.name} | ${item.value} | ${item.durability} | ${
+		item.effectiveness
+	} | ${pretty_print_score(get_score(item))} |`;
 
 /**
  * START SCRIPT
  */
 
 let options = sort_by_score(get_options("shoes"));
-options.forEach(item =>
-	console.log(`${item.name}: ${pretty_print_score(get_score(item))}`)
-);
+console.log(options.map(markdown_row).join("\n"));
